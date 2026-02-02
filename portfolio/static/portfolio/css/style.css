@@ -1,0 +1,73 @@
+/* Reset some default browser spacing */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2ff, #f9fcff);
+    color: #2c3e50;
+}
+
+/* Main container */
+.container {
+    max-width: 700px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Main heading */
+h1 {
+    color: #1f3c88;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+/* Tagline under name */
+.tagline {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Section headings */
+h2 {
+    color: #1f3c88;
+    margin-top: 35px;
+    border-bottom: 2px solid #d6e4ff;
+    padding-bottom: 5px;
+}
+
+/* Projects list */
+.projects {
+    list-style: none;
+    padding-left: 0;
+}
+
+.projects li {
+    background: #f1f7ff;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-left: 5px solid #1f3c88;
+    border-radius: 6px;
+}
+
+/* Contact text */
+.contact {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Small screen responsiveness */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}

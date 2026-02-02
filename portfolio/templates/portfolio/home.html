@@ -2,19 +2,26 @@
 <html>
 <head>
     <title>My Portfolio</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+
 </head>
 <body>
-    <h1>Hello, I'm Emmanuel</h1>
-    <p>Pharmacy | Tech | Health Systems</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Hospital Management System (Python)</li>
-        <li>JamboRx – Pharma Distribution Platform</li>
-        <li>Web Scraping & Data Systems</li>
-    </ul>
+    <div class="container">
+        <h1>Hello, I'm Emmanuel Lihanda</h1>
+        <p class="tagline">Pharmacy | Tech | Health Systems</p>
 
-    <h2>Contact</h2>
-    <p>Email: emmanuellihanda@gmail.com</p>
+        <h2>Projects</h2>
+        <ul class="projects">
+            <li>Hospital Management System (Python)</li>
+            <li>JamboRx – Pharma Distribution Platform</li>
+            <li>Web Scraping & Data Systems</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p class="contact"> emmanuellihanda@gmail.com</p>
+    </div>
+
 </body>
 </html>
